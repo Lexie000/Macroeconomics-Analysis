@@ -17,9 +17,8 @@ This repository contains the materials for our study on how changes in the Feder
 
 ## Repository Structure
 
-├─ Appendix/ # Supplemental materials: extra results, robustness checks, refs \
 ├─ Manuscript/ # Main paper (PDF), figures, and summary files (.xlsx, .gph) \
-├─ Replication Code/ # All Stata .do files to reproduce paper + appendix results  \
+├─ Replication Code/ # An overall Stata .do file to reproduce paper + appendix results  \
 ├─ Results/ # Auto-generated outputs: tables (.tex/.csv/.doc) and figures (.png/.pdf/.gph)  \
 └─ README.md   
 
