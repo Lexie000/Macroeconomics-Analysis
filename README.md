@@ -22,13 +22,6 @@ This repository contains the materials for our study on how changes in the Feder
 ├─ Results/ # Auto-generated outputs: tables (.tex/.csv/.doc) and figures (.png/.pdf/.gph)  \
 └─ README.md   
 
-
-### Contents by folder
-- **`Appendix/`** – Supplemental figures/tables, robustness checks, and documentation referenced in the paper.  
-- **`Manuscript/`** – The main paper (PDF) and accompanying artifacts (key figures, Excel summaries, Stata `.gph`).  
-- **`Replication Code/`** – Stata `*.do` files to download/prepare data (if applicable), estimate models, and export outputs.  
-- **`Results/`** – Script outputs. Tables saved as `.tex/.csv/.doc`; figures exported as `.png/.pdf` (and `.gph` for Stata graphs).
-
 ---
 
 ## Software & Requirements
