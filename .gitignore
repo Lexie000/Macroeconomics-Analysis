@@ -1,0 +1,28 @@
+# ── Stata generated files ──────────────────────────────────────────────────
+*.smcl          # Stata log (binary)
+*.log           # Stata log (text) — commit these only if you want a log archive
+*.stswp         # Stata temp swap file
+
+# ── Processed / intermediate data (reproducible from raw) ──────────────────
+data/processed/
+!data/processed/.gitkeep
+
+# ── Raw data (large or licensed — not committed; see README for sources) ────
+data/raw/*.dta
+data/raw/*.csv
+# Exception: keep the small public FEDFUNDS.dta we ship with the repo
+!data/raw/FEDFUNDS.dta
+
+# ── Generated outputs (reproducible by running the code) ───────────────────
+output/tables/
+output/figures/
+!output/tables/.gitkeep
+!output/figures/.gitkeep
+
+# ── macOS junk ─────────────────────────────────────────────────────────────
+.DS_Store
+._*
+
+# ── Editor/IDE ──────────────────────────────────────────────────────────────
+.vscode/
+*.sublime-workspace
